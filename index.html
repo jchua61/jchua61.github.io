@@ -3,15 +3,7 @@
 <html lang="en">
 <head>
   
-  <script type="text/javascript">
-var stateObj = { foo: "bar" };
-function change_my_url()
-{
-   history.pushState(stateObj, "page 2", "bar.html");
-}
-var link = document.getElementById('click');
-link.addEventListener('click', change_my_url, false);
-</script>
+  history.pushState('data to be passed', 'squarespace', '/test');
   
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
