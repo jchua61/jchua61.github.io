@@ -3,7 +3,18 @@
 <html lang="en">
 <head>
   
-  history.pushState('data to be passed', 'squarespace', '/test');
+  
+  <script>
+window.onload = function() {
+    window.location.hash = "Loaded!";
+    document.getElementById("click-me").onclick = function() {
+        window.location.hash = "Click!";
+        document.getElementById("click-me").onclick = function() {
+            window.location.hash = "Clicked AGAIN!";
+        };
+    };
+}
+</script>
   
   <meta charset="utf-8">
   <meta name="viewport" content="initial-scale=1, maximum-scale=1">
