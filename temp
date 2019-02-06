@@ -1,0 +1,25 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="initial-scale=1, maximum-scale=1">
+  <meta name="description" content="Log into your Squarespace account. Squarespace is the all-in-one solution for anyone looking to create a beautiful website.">
+  <title>Squarespace &mdash; Login</title>
+  <link rel="stylesheet" type="text/css" href="https://static3.squarespace.com/sentinel/c4a631261c/oauth.en-US.css" />
+  <script type="application/json" id="context-data">
+    {"languageTag":"en-US","authenticationMethod":"OAUTH","options":{"createAccountViewActive":false,"closeVisible":false,"isCloseVisible":false,"isCreateAccountViewActive":false},"overrideLocale":"en_US","abTestUrl":"https://www.squarespace.com/api/events/ABTest","gdprRequired":false,"recaptchaSiteKey":"6LdQI2IUAAAAADtrAsuSdmQ1PUBkMypgw3wXOxZO","recaptchaLoaded":true,"requestId":"OU2WH9YsVf85t76u5faqDa+c5mqEIObthXg3XJlQ9YI="}
+  </script>
+</head>
+<body>
+  <noscript>
+    <div>Please enable Javascript to use this application.</div>
+  </noscript>
+
+  <div id="renderTarget"></div>
+  <div id="recaptchaDiv"></div>
+
+  <script src="https://www.google.com/recaptcha/api.js?render=explicit" async defer></script>
+  <script src="https://static3.squarespace.com/sentinel/c4a631261c/oauth.en-US.js"></script>
+</body>
+</html>
